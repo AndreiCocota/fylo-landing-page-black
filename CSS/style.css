@@ -1,0 +1,323 @@
+body{
+    background-color: hsl(218, 28%, 13%); 
+    color:white;
+}
+
+/* Navigation Bar */
+.section-one{
+    background-color: hsl(217, 28%, 15%);
+   
+}
+.navigation{
+    padding: 2.5rem 1.5rem 4.5rem;
+    
+}
+.nav-img{
+    position: absolute;
+    top:2rem;
+}
+.nav-item{
+    padding:0 1rem 0;
+}
+.nav-link{
+    font-size: 1rem;
+    color:white;
+    font-family: 'Raleway';
+    
+}
+.bg-curvy{
+    position: absolute;
+    top:720px;
+    width: 1512px;
+}
+.bg-curvy-mobile{
+    position: absolute;
+    top: 800px;
+    left: 0px;
+    width: 375px;
+}
+/* ATRIBUTION */
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+}
+  
+.attribution a{ 
+    color: hsl(228, 45%, 44%);
+    
+}
+
+h1,h5{
+    font-family: 'Raleway';
+    font-weight: 700;
+}
+p{
+    font-family: 'Open Sans';
+}
+
+/* BUTTONS */
+
+.myButton{
+	background-color:hsl(198, 60%, 50%);
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	padding:16px 76px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton2{
+	background-color:hsl(198, 60%, 50%);
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	padding:16px 76px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+
+
+
+/* SECTION-TWO */
+
+.middle-container{
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    
+}
+#features{
+    background-color: hsl(217, 28%, 15%);
+    padding-bottom: 250px;
+}
+
+
+
+/* SECTION-THREE */
+#files{
+    padding: 80px;
+   
+}
+.card{
+    background-color:hsl(218, 28%, 13%) ;
+    text-align: center;
+    border: none;
+    
+}
+
+.container-three{
+    
+    text-align: center;
+}
+.column-left{
+    padding-left:15%;
+}
+.column-right{
+    padding-right: 15%;
+}
+.cards-img{
+height: 6.25rem;
+}
+
+
+/* SECTION-FOUR */
+#stay_productive{
+    padding: 20px;
+}
+
+.column-description{
+    padding-top: 50px;
+}
+
+.atrb-works{
+    color:hsl(176, 68%, 64%);
+    text-decoration: underline;
+}
+
+/* SECTION-FIVE */
+#testimonial{
+    padding: 80px;
+}
+.testimonials-column{
+    background-color: hsl(219, 30%, 18%);
+    margin: 0 20px;
+    max-width: 400px;
+    padding: 3% 2%;
+    box-shadow: 5px 10px 8px hsl(217, 28%, 15%);
+}
+.person-function{
+    font-size:0.6rem;
+}
+.img-profile{
+    border-radius: 50%;
+    width: 35px;
+    float:left;
+}
+.person-detail{
+    position: relative;
+    top:22px;
+}
+
+.container-sfive{
+    background-color: hsl(217, 28%, 15%);
+    padding: 35px 45px;
+    max-width: 700px;
+    margin: 50px auto;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    box-shadow: 5px 10px 8px hsl(218, 28%, 13%);
+}
+
+.email-form{
+    width: 300px;
+    border-radius: 25px;
+    border: none;
+    height: 35px;
+    
+}
+
+input[type="text"] {
+    outline: none;
+}
+
+
+
+/* LAST SECTION */
+.last-section{
+    background-color: hsl(216, 53%, 9%);
+    padding-left: 30px;
+
+}
+.social-icon{
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    padding:5px;
+}
+.icn-slast{
+    float: left;
+    padding-right: 5px;
+}
+
+ul{
+    list-style-type:none;
+}
+
+
+.last-logo-img{
+    padding-top: 70px;
+}
+
+#details{
+    padding:80px 80px 10px 80px;
+}
+
+.footer-s{
+    padding-top:90px;
+}
+
+
+
+
+/* MEDIA QUERY */
+@media (max-width:750px){
+    .body{
+        text-align: center;
+    }
+    .column-left{
+        padding-left: 0px;
+    }
+    .column-right{
+        padding-right: 0px;
+    }
+   #features{
+       padding-left:30px;
+   }
+    h1{
+    font-size: 2rem;
+    }
+   h5,.heading-description{
+       font-size:1.2rem;
+   }
+
+   .testimonials-column{
+       margin-top: 10px;
+   }
+   .email-form{
+    width: 250px;
+    margin-bottom: 10px;
+    position: relative;
+    right:15px;
+}
+
+#details{
+    padding:30px;
+}
+.nav-img{
+    width: 100px ;
+}
+.nav-item{
+    padding:0 1px 0;
+    position: relative;
+    left:30px;
+    bottom: 8px;
+
+}
+.nav-link{
+    font-size: 0.8rem;
+}
+.bg-curvy{
+    display: none;
+}
+
+
+
+
+}
+@media (max-width:1010px){
+    .prodcutivity-img{
+        width: 420px;
+    }
+    .intro-img{
+        width: 420px;
+       }
+
+       
+
+
+    }      
+@media (max-width:420px){
+    .prodcutivity-img{
+        width: 340px;
+    }
+    .intro-img{
+        width: 340px;
+       }
+       .email-form{
+        width: 150px;
+    }
+
+        .myButton2{
+            font-size: 0.8rem;
+            padding: 5px 1px ;
+        }
+
+}
+
+@media (min-width:750px){
+    .bg-curvy-mobile{
+        display: none;
+    }
+}
